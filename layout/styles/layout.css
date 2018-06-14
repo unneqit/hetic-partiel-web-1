@@ -1185,6 +1185,10 @@ table a,
   #header #logo {
     margin-top: 3px;
   }
+  #pageintro ul {
+    display: flex;
+    justify-content: space-around;
+  }
   #mainav {}
   #mainav ul {
     display: none;
