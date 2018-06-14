@@ -32,6 +32,10 @@
   line-height: normal;
 }
 
+.iconlink:hover {
+  color: #CF9C67;
+}
+
 /* Header --------------------------------------------------------------------------------------------------------------- */
 
 #header {}
@@ -207,6 +211,10 @@
   margin-bottom: 0;
 }
 
+.latest a:hover {
+  color: #000;
+}
+
 /* Used when elements stack in smaller viewports */
 
 /* Comments */
@@ -379,6 +387,10 @@
   width: 30px;
   font-size: 16px;
   text-align: center;
+}
+
+#footer .nospace a:hover {
+  color: #000;
 }
 
 /* Copyright --------------------------------------------------------------------------------------------------------------- */
@@ -1141,9 +1153,6 @@ table a,
 @media screen and (min-width:978px) {
   .hoc {
     max-width: 978px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 }
 
@@ -1151,9 +1160,6 @@ table a,
 
 @media screen and (max-width:900px) {
   .hoc {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     max-width: 90%;
   }
   #topbar {}
@@ -1212,9 +1218,6 @@ table a,
   .two_quarter,
   .three_quarter {
     display: block;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     float: none;
     width: auto;
     margin: 0 0 30px 0;
