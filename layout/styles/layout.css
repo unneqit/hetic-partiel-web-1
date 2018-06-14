@@ -873,6 +873,22 @@ textarea:focus,
   background-color: rgba(0, 0, 0, .55);
 }
 
+.firstbg {
+  background-image: url('../../images/demo/backgrounds/01.png');
+}
+
+.secondbg {
+  background-image: url('../../images/demo/backgrounds/02.png');
+}
+
+.thirdbg {
+  background-image: url('../../images/demo/backgrounds/03.png');
+}
+
+.fourthbg {
+  background-image: url('../../images/demo/backgrounds/04.png');
+}
+
 .btn,
 .btn.inverse:hover {
   color: #FFFFFF;
