@@ -37,8 +37,8 @@
 }
 
 /* Header --------------------------------------------------------------------------------------------------------------- */
-
-#header {}
+#header {
+}
 
 #header #logo {
   margin: 30px 0 0 0;
@@ -920,8 +920,15 @@ textarea:focus,
 }
 
 .row1 {
+  position: fixed;
   color: #FFFFFF;
   background-color: rgba(0, 0, 0, .2);
+  top: 52px;
+  transition: .3s ease-in-out;
+}
+
+.row1.hidden {
+  top: -80px;
 }
 
 .row2 {
